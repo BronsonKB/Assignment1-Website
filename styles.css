@@ -1,0 +1,109 @@
+.navbar{
+  background-color: #021022;
+  color: #DEC0A0;
+}
+.aboutme {
+  background-color: #021022;
+    color: #DEC0A0;
+    font-family: 'Roboto Flex', sans-serif;
+    text-align: center;
+    padding-top: 10%
+}
+.aboutme h1{
+  font-size: 5rem;
+  padding: 5% 0 5% 0;
+  font-weight: 200;
+}
+.imageofme {
+  width: 30%;
+  border-radius: 500px;
+  border-style: solid;
+  border-color: #DEC0A0;
+  border-width: thick;
+}
+hr {
+  width: 50%;
+  border-width: thick;
+  margin: auto;
+  color: #DEC0A0;
+}
+.aboutmeinfo {
+  padding: 30px 0 30px 0;
+  font-size: 1.3rem;
+}
+.interest, .personalprofile {
+
+    color: #021022;
+    font-family: 'Roboto Flex', sans-serif;
+    text-align: center;
+
+}
+.interest h1, .personalprofile h1{
+  font-size: 5rem;
+  padding: 0% 0 5% 0;
+}
+.interest p, .jobp1, .projectp, .personalprofilecardsp, .aboutme p{
+  font-size: 1.5rem;
+  padding: 5%;
+}
+h3{
+  font-size: 3.8rem;
+  padding: 5%;
+}
+.question {
+  font-style: italic;
+  font-size: 2rem
+}
+.idealjob, .project {
+  background-color: #021022;
+    color: #DEC0A0;
+    font-family: 'Roboto Flex', sans-serif;
+    text-align: center;
+}
+.jobscreencap{
+  width: 90%;
+  padding-bottom: 4%
+}
+
+.accordion {
+  margin-bottom: 50px;
+}
+.projectgraphic {
+  width: 70%;
+  padding: 4%;
+}
+.project p{
+  padding: 0 3% 0 3%;
+  font-size: 1.3rem;
+
+}
+.row{
+  margin: 0 auto;
+}
+.personalprofile h4 {
+  padding: 4%;
+  font-size: 2rem
+}
+.personalprofile img {
+  width: 50%
+}
+.personalprofile hr {
+  width: 50%;
+  color: #021022;
+}
+.personalprofile p{
+  font-size: 1.5rem;
+  padding: 5% 5% 0 5%;
+}
+h5{
+  font-size: 2.8rem;
+  padding: 5%
+}
+br{
+  display: block;
+  content: "";
+  margin: 25px 0;
+}
+.project{
+  padding-bottom: 100px;
+}

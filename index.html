@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,400;8..144,500;8..144,800;8..144,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css">
+  <title>Intro to IT - Assignment 1 Website</title>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">My Profile</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" aria-current="page" href="#aboutme">About Me</a>
+          <a class="nav-link" href="#interest">Interest in IT</a>
+          <a class="nav-link" href="#idealjob">Ideal Job</a>
+          <a class="nav-link" href="#profile">Profile</a>
+          <a class="nav-link" href="#project">Project Idea</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="aboutme container-fluid" id="aboutme">
+    <div class="row">
+      <div class="col col-12 justify-content-center align-middle">
+        <img class="imageofme" src="./images/hike.jpg" alt="Picture of the websites author on a hike!">
+        <h1>Hi. I'm Bronson.</h1>
+      </div>
+    </div>
+
+    <div class="row aboutmeinfo">
+      <div class="col col-md-4 col-sm-12">
+        <p data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="Hi!">Bronson Billing</p>
+      </div>
+      <div class="col col-md-4 col-sm-12">
+        <p data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="This is my student number!">S3967254</p>
+      </div>
+      <div class="col col-md-4 col-sm-12">
+        <p data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="Email me!"><a href="mailto:S3967254@student.rmit.edu.au">S3967254@student.rmit.edu.au</a></p>
+      </div>
+
+    </div>
+    <hr>
+    <div class="">
+    <p>I'm a 20-year-old aspiring programmer from Launceston, Tasmania. My family is from Melbourne and my Grandad is actually a former RMIT student. When I'm not on the computer, I'm probably boxing or at the gym!</p>
+    </div>
+  </div>
+
+  <div class="interest container-fluid" id="interest">
+    <h3>Interest in IT</h3>
+    <div class="row">
+      <div class="col col-lg-4 col-md-12 col-sm-12 col-xs-12">
+        <h4 class="question">What is your interest in IT?</h4>
+        <p>I have been interested in IT for as long as I can remember. I was born in 2001, so I have had constant exposure to IT for my entire life. I was always and still am curious as to how the IT systems that I work with and use everyday function
+          and interconnect. While I am interested in IT generally, I tend to develop specific interests that I explore for a few months at a time. I am currently exploring my interest in full stack web development with React and NodeJS. While I don’t
+          have any professional or educational experience in IT, I have developed skills based on my interests in IT and have created many personal software and hardware projects using those skills. </p>
+      </div>
+      <div class="col col-lg-4 col-md-12 col-sm-12 col-xs-12">
+        <h4 class="question">Why did you choose to go to RMIT?</h4>
+        <p>I chose to study my Bachelor of Information Technology at RMIT for two main reasons. The first and my most important reason was course content. I find that most Universities bundle an interesting degree with irrelevant elective subjects.
+          RMIT’s course structure seems focused on keeping the course content relevant, useful, and interesting. The second reason is accessibility. I prefer online learning to on-campus learning as it lets me have greater control over my schedule.
+        </p>
+      </div>
+      <div class="col col-lg-4 col-md-12 col-sm-12 col-xs-12">
+        <h4 class="question">What do you expect to learn?</h4>
+        <p>While I feel that I have a decent level of programming knowledge, I am almost completely self-taught. I have no professional IT experience and I have developed many bad habits when it comes to my code. I also feel that because of my
+          personality I need to have some sort of training that will help me with working with teams in the workplace. I expect and hope to learn about the IT industry, teamwork, professional practice, and good coding practices.</p>
+      </div>
+
+    </div>
+  </div>
+  <div class="idealjob container-fluid" id="idealjob">
+    <h3>Ideal Job</h3>
+    <p class="jobp1">My ideal job would be as a tech entrepreneur. This would mean developing my own apps, games, tools, or websites to sell to others. If I were to choose an ideal job where I was employed by somebody else, it would be as a full
+      stack software developer.</p>
+    <div class="row">
+      <div class="col col-xl-4 col-lg-12">
+        <img class="jobscreencap" src="./images/Capture.png" alt="">
+      </div>
+      <div class="col col-xl-8 col-lg-12">
+        <!--This code was edited from an example in the Bootstrap 5.2 docs -->
+        <div class="accordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+        The Job
+            </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>The position begins with the employee working on an unnamed project as a front-end React developer. After the project is complete, the employee transitions to an all-rounder full stack position. I find the job appealing because
+                  while I’d be able to stay in my comfort zone of working with JavaScript, I’d have the variety of working on both the front-end and back-end of projects.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Skills Required
+            </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>The main skills required are NodeJS and React. NodeJS is a backend tool while React is a front-end library. Both of these tools use JavaScript, so an excellent understanding of JavaScript is needed. While the description does not specifically state how many years of NodeJS or React experience is needed, since the job is advertising $800 per day it’s likely they are looking for somebody to have advanced and demonstrated React and NodeJS skills.  The position also requires soft skills like teamwork, time management, and creativity. The position seems to be focused on collaboration with other developers, so good interpersonal and organisational skills are a must.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Current Skills
+            </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>While I do have experience with NodeJS and React, my experience is very limited, and my skills are still developing. I have used these two tools, as well as JavaScript, as a hobbyist, so my NodeJS and React skills are not up to the standard wanted for the job. I also have little experience in a corporate setting. While I have worked in groups at small businesses, I do not have any experience working for an IT company in the context of the position. I am able to work in a team and my interpersonal skills are decent but having no corporate IT company experience is a considerable disadvantage.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        My Plan
+            </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>The first step towards gaining the skills I need for this position is to complete my Bachelor of Information Technology. While I am studying, I will be developing my NodeJS and React skills. It would be helpful if I use NodeJS and React in a course project so I can demonstrate my skills with them. Although the job ad does not say explicitly, I believe that they are looking for somebody with experience working as a full stack developer.  This means that a good step to take after university would be to take a graduate or junior full-stack developer job. I enjoy making my own projects, so I would bank up a portfolio of NodeJS and React projects for a portfolio while working. I am sure that following this plan will give me everything I need for the position.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="personalprofile container-fluid" id="profile">
+    <h3>Personal Profile</h3>
+    <div class="row">
+      <div class="col col-lg-4 col-md-12 col-sm-12 col-xs-12">
+        <a title="Hajar2710, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Intp-logician.svg"><img alt="Intp-logician" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Intp-logician.svg/512px-Intp-logician.svg.png"></a>
+
+        <h4>INTP</h4>
+        <p class="personalprofilecardsp">My result for the Myers-Briggs Type Indicator (MBTI) test was INTP-T. The INTP personality type is known as the Logician and INTPs tend to be independent and analytical.</p>
+      </div>
+      <div class="col col-lg-4 col-md-12 col-sm-12 col-xs-12">
+        <a title="Image courtesy of the University of Wollongong, Australia" href="https://www.uow.edu.au/student/learning-co-op/effective-studying/identify-your-learning-style/"><img src="https://www.uow.edu.au/assets/contributed/deputy-vice-chancellor---academic/learning-co-op/effective-studying/uow245127.jpg" alt="VARK learning styles"></a>
+<h4>Kinaesthetic Learner</h4>
+<p class="personalprofilecardsp">My test results show that I’m a kinaesthetic learner. Kinaesthetic learners prefer using practical and hands on lessons, trial and error as well as previous experience to learn.</p>
+      </div>
+      <div class="col col-lg-4 col-md-12 col-sm-12 col-xs-12">
+    <a title="Image courtesy of the Divergent Association Task webpage" href="https://www.datcreativity.com/"><img src="https://www.datcreativity.com/dat.svg" alt=""></a>
+<h4>Creative</h4>
+      <p class="personalprofilecardsp">On my Divergent Association Task, which is a creativity test, I scored 84.52 which is higher than 83.54% of participants.</p>
+      </div>
+    </div>
+<hr>
+<p>I feel that the test results accurately show my strengths and weaknesses. The most relevant meaning I gathered from the tests is that while I can come up with well-thought-out and creative ideas, I struggle with expressing them and arguing for them because of my introversion and self-doubt. The test results mean that I have positive traits, but I need to push myself for them to be useful.</p>
+<p>I believe that the results will influence my behaviour in a team positively. I’m able to clearly see my strengths and weaknesses through the results. This means that I can be more aware of positive skills that I can bring to the group as well as things that I need to be mindful of. I will be mindful that I sometimes do not speak up in group discussions, so I will push myself to do so. I will also make sure to use my analysis skills and creativity in the idea forming process.</p>
+<p>I think that a large part of collaboration is understanding. If you don’t come to an understanding with your group, it will be very difficult to get anything done. A large takeaway from these results is just how different people are. While forming a team, I should take into account that I need to be understanding of other people’s personality traits, strengths, and weaknesses as they should be with me. </p>
+  </div>
+<div class="project container-fluid" id="project">
+  <h3>Project Idea</h3>
+
+  <div >
+    <img class="projectgraphic" src="./images/ii-nobackground.png" alt="">
+  </div>
+  <h5>Overview</h5>
+  <p>‘Internet Idle’ will be a server based incremental idle game where the player has to build up their company to become the world’s largest Internet Service Provider (ISP). Players will use their in-game currency to buy upgrades, equipment and to advertise their company in an endless and addictive gameplay loop. Internet Idle will be playable on mobile as well as browser and will be one of very few idle games that let you play on the same save file across platform.</p>
+  <h5>Motivation</h5>
+  <p>Idle games have been a large section of the casual gaming market since the early to mid-2010s and have continued to grow in popularity. An Idle game has no defined ending, and its gameplay loop is based around collecting enough in game currency to incrementally progress through the game. An infinitely playable, addictive, and easy to access game has huge earning potential. One of the most popular idle games, ‘Idle Heroes’ was making more than $264,000 in daily revenue during January of 2018 </p>
+  <h5>Description</h5>
+  <p>The gameplay of Internet Idle will be simple and easy to understand, but extremely addictive. Idle games have a proven formula that when done well, produces a game that can keep players hooked. Even though Internet Idle aims to innovate in many fields, the core mechanics and gameplay loop common in the idle game genre will be present. While the goal of the vast majority of idle games is for the player to earn higher and higher amounts of in-game currency, all idle games differ in how the player earns that money.
+    <br />
+In Internet Idle, the player will own an ISP and will be paid for each byte of data their company processes. The player will have to play an exciting balancing act between the amount of data they receive from customers and the amount that they can process and send through their servers. Although idle games have no ending, they do have limitations. A player can only buy so many servers and make so much money before they get bored. This is where the rebirth mechanic comes in to play. <br />
+The vast majority of successful idle games have a rebirth game mechanic. This allows the player to wipe all of their progress to gain something in return. Often the increments in idle games are not linear but are exponential. The rebirth system makes the exponential increments less harsh by giving the player a massive buff. Internet idle’s rebirth system will allow the player to reset their progress in exchange for a multiplier on all in-game currency earned. This encourages the player to continue playing the game due to the sunk-cost fallacy and helps to flatten the exponential challenge in the game. If idle game is like rolling a boulder up a hill for an eternity, rebirth is a satisfying way to make the hill a bit less steep.
+<br />
+Internet Idle will have the advantage of being one of the few Idle games that can be played on PC, Mac, IOS, and Android all while on the same save file. This means that a player can sign in easily through their Google or Facebook account via OAuth and will never lose their progress. They can continue their game wherever they are. This feature will require the game to be hosted on servers, this of course means that the game will cost money to deploy and keep functional. That is why it is necessary that the game is monetised.
+<br />
+Monetisation will come in two forms, in-game purchases and ads. Both ads and in-game purchases will be optional and will grant the player with rewards when seen or purchased. As an idle game progresses incrementally, players often can get stuck at an increment or have to wait too much time to progress. In-app purchases and ads allow the player to progress quickly and provide instant gratification rather than the delayed gratification that normal gameplay provides. This instant gratification system is what makes idle games such great earners. With a large enough player base, Internet Idle should be able to generate a large profit even with the expense of server costs.
+</p>
+<h5>Tools and Technologies</h5>
+<p>Internet Idle will be built using React and NodeJS. While using these tools will help Internet Idle to become a great portfolio piece, they also pose other significant advantages. Using React will allow Internet Idle to be accessible as a website and as a mobile app via React Native using a single codebase. NodeJS is a great fit for React and for the JSON data format that the project will use. Internet Idle will be using MongoDB or a similar JSON compatible database and will use a cloud hosting service like AWS or Azure to host the game servers.</p>
+<h5>Skills Required</h5>
+<p>The skills required for the project include database planning and management, JavaScript and JS libraries, HTML/CSS, and game design. The only hardware required for the project, other than the computers that the game will be programmed on, are servers. This is not an issue as servers don’t have to be purchased outright. A cloud hosting service like Azure or AWS will be used. Within a university context, being able to find a team that holds the skills needed may be difficult but is entirely possible. It is not necessary that all members of the team have to possess each of the skills required. The labour can be divided which means that if members do not already know a skill that is needed, learning the skill could be possible within the time frame.</p>
+<h5>Outcome</h5>
+<p>Much like the gameplay of an idle game, the ideal outcome of the project is incremental. The first measure of success will be whether Internet Idle is playable and easily accessible. While having a playable game is an achievement in and of itself, the greatest measure of success for Internet Idle will be whether the game is interesting enough to garner a player base. Player engagement can and will be monitored to measure the success of the game. Even if the game is not successful in a commercial sense, its development will have a positive impact as it will serve as a strong portfolio piece.</p>
+</body>
+
+<script type="text/javascript">
+  const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+  const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+</script>
+
+</html>
